@@ -1,8 +1,5 @@
-To install Terraform, find the appropriate package for your system and download it. Terraform is packaged as a zip archive.
-
-After downloading Terraform, unzip the package. Terraform runs as a single binary named terraform. Any other files in the package can be safely removed and Terraform will still function.
-
-The final step is to make sure that the terraform binary is available on the PATH. See this page for instructions on setting the PATH on Linux and Mac.
+To install Terraform,
+find the appropriate package for your system and download it. Terraform is packaged as a zip archive. After downloading Terraform, unzip the package. Terraform runs as a single binary named terraform. Any other files in the package can be safely removed and Terraform will still function.The final step is to make sure that the terraform binary is available on the PATH. See this page for instructions on setting the PATH on Linux and Mac.
 
 Verifying the Installation
 
@@ -35,7 +32,6 @@ If we are satisfied with the current tested plan, we execute terraform apply to 
 You will be asked to confirm the current action by typing “yes”:
 
 $ terraform apply
-
 
 we can terminate and remove our plan. It is a very simple action with terraform destroy command (you will be asked again to confirm your action):
 
